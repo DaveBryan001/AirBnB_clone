@@ -4,5 +4,25 @@
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
-    align-content: center;
+    /* align-items: center; */
+    display: flex;
+    /* justify-content: flex-end; */
+    position: relative;
+}
+button {
+    font-size: 18px;
+    background-color: #ff5a5f;
+    color: #ffffff;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    position: absolute; 
+    top: 12px;
+    right: 30px;
+
+}
+
+button:hover{
+    opacity: 0.9;
 }
